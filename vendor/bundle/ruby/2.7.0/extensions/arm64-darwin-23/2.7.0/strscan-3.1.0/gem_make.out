@@ -1,0 +1,48 @@
+current directory: /Users/wid_ghdtjq/vscProjects/sinaVro/SINABRO/vendor/bundle/ruby/2.7.0/gems/strscan-3.1.0/ext/strscan
+/Users/wid_ghdtjq/.rbenv/versions/2.7.2/bin/ruby -I /Users/wid_ghdtjq/.rbenv/versions/2.7.2/lib/ruby/2.7.0 -r ./siteconf20240801-34283-k7posa.rb extconf.rb
+checking for onig_region_memsize() in ruby.h... yes
+checking for rb_reg_onig_match() in ruby.h... no
+creating Makefile
+
+current directory: /Users/wid_ghdtjq/vscProjects/sinaVro/SINABRO/vendor/bundle/ruby/2.7.0/gems/strscan-3.1.0/ext/strscan
+make "DESTDIR=" clean
+
+current directory: /Users/wid_ghdtjq/vscProjects/sinaVro/SINABRO/vendor/bundle/ruby/2.7.0/gems/strscan-3.1.0/ext/strscan
+make "DESTDIR="
+compiling strscan.c
+strscan.c:244:26: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+        keyword_ids[0] = rb_intern("fixed_anchor");
+                         ^~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/wid_ghdtjq/.rbenv/versions/2.7.2/include/ruby-2.7.0/ruby/ruby.h:1847:23: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                      ^
+strscan.c:244:26: note: '{' token is here
+        keyword_ids[0] = rb_intern("fixed_anchor");
+                         ^~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/wid_ghdtjq/.rbenv/versions/2.7.2/include/ruby-2.7.0/ruby/ruby.h:1847:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/wid_ghdtjq/.rbenv/versions/2.7.2/include/ruby-2.7.0/ruby/ruby.h:1832:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    {                                                   \
+    ^
+strscan.c:244:26: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+        keyword_ids[0] = rb_intern("fixed_anchor");
+                         ^~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/wid_ghdtjq/.rbenv/versions/2.7.2/include/ruby-2.7.0/ruby/ruby.h:1847:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/wid_ghdtjq/.rbenv/versions/2.7.2/include/ruby-2.7.0/ruby/ruby.h:1837:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    }
+    ^
+strscan.c:244:26: note: ')' token is here
+        keyword_ids[0] = rb_intern("fixed_anchor");
+                         ^~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/wid_ghdtjq/.rbenv/versions/2.7.2/include/ruby-2.7.0/ruby/ruby.h:1847:56: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                                                       ^
+2 warnings generated.
+linking shared-object strscan.bundle
+
+current directory: /Users/wid_ghdtjq/vscProjects/sinaVro/SINABRO/vendor/bundle/ruby/2.7.0/gems/strscan-3.1.0/ext/strscan
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 strscan.bundle ./.gem.20240801-34283-1sa6hs8

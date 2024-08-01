@@ -1,0 +1,15 @@
+current directory: /Users/wid_ghdtjq/vscProjects/sinaVro/SINABRO/vendor/bundle/ruby/2.7.0/gems/nkf-0.2.0/ext/nkf
+/Users/wid_ghdtjq/.rbenv/versions/2.7.2/bin/ruby -I /Users/wid_ghdtjq/.rbenv/versions/2.7.2/lib/ruby/2.7.0 -r ./siteconf20240801-34283-zp5b3r.rb extconf.rb
+creating Makefile
+
+current directory: /Users/wid_ghdtjq/vscProjects/sinaVro/SINABRO/vendor/bundle/ruby/2.7.0/gems/nkf-0.2.0/ext/nkf
+make "DESTDIR=" clean
+
+current directory: /Users/wid_ghdtjq/vscProjects/sinaVro/SINABRO/vendor/bundle/ruby/2.7.0/gems/nkf-0.2.0/ext/nkf
+make "DESTDIR="
+compiling nkf.c
+linking shared-object nkf.bundle
+
+current directory: /Users/wid_ghdtjq/vscProjects/sinaVro/SINABRO/vendor/bundle/ruby/2.7.0/gems/nkf-0.2.0/ext/nkf
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 nkf.bundle ./.gem.20240801-34283-108jl14
