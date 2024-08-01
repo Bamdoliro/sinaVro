@@ -1,0 +1,21 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "packages/fonts/AppleSDGothicNeoR00.otf",
+      "sha1": "24885b6ad9bc407081d95335f51fc792d9293f3e"
+    },
+    {
+      "path": "packages/fonts/Diphylleia-Regular.otf",
+      "sha1": "7348fb95c6dc6b02545ee5a3c01de70aa7efd6b8"
+    },
+    {
+      "path": "packages/fonts/NanumEongGeongKwiCe.otf",
+      "sha1": "7982526099b239069c333f193ed7c93ed27afc2f"
+    },
+    {
+      "path": "packages/fonts/RIDIBatang.otf",
+      "sha1": "24885b6ad9bc407081d95335f51fc792d9293f3e"
+    }
+  ]
+}

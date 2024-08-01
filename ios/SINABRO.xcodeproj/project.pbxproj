@@ -15,6 +15,10 @@
 		5B3A497497F614EADF867C80 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 9195BD4CCA7CC84372BC00E2 /* PrivacyInfo.xcprivacy */; };
 		7699B88040F8A987B510C191 /* libPods-SINABRO-SINABROTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-SINABRO-SINABROTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		E329C6F4FE1046AB8F3A970C /* AppleSDGothicNeoR00.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1A1A31272FC04762A017E0AC /* AppleSDGothicNeoR00.otf */; };
+		E38510F7CE624A299F752A06 /* Diphylleia-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 78A0797393C44759B55FF6DD /* Diphylleia-Regular.otf */; };
+		CCD06858F04540C0B619A205 /* NanumEongGeongKwiCe.otf in Resources */ = {isa = PBXBuildFile; fileRef = 075578CFFFA140C1817322DF /* NanumEongGeongKwiCe.otf */; };
+		E5D669BEA5F54584AC138A8D /* RIDIBatang.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0DB5AEF152234FC98C2D3621 /* RIDIBatang.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		89C6BE57DB24E9ADA2F236DE /* Pods-SINABRO-SINABROTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SINABRO-SINABROTests.release.xcconfig"; path = "Target Support Files/Pods-SINABRO-SINABROTests/Pods-SINABRO-SINABROTests.release.xcconfig"; sourceTree = "<group>"; };
 		9195BD4CCA7CC84372BC00E2 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = SINABRO/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		1A1A31272FC04762A017E0AC /* AppleSDGothicNeoR00.otf */ = {isa = PBXFileReference; name = "AppleSDGothicNeoR00.otf"; path = "../packages/fonts/AppleSDGothicNeoR00.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		78A0797393C44759B55FF6DD /* Diphylleia-Regular.otf */ = {isa = PBXFileReference; name = "Diphylleia-Regular.otf"; path = "../packages/fonts/Diphylleia-Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		075578CFFFA140C1817322DF /* NanumEongGeongKwiCe.otf */ = {isa = PBXFileReference; name = "NanumEongGeongKwiCe.otf"; path = "../packages/fonts/NanumEongGeongKwiCe.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0DB5AEF152234FC98C2D3621 /* RIDIBatang.otf */ = {isa = PBXFileReference; name = "RIDIBatang.otf"; path = "../packages/fonts/RIDIBatang.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +135,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				E32ED355F80E4159A099380B /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -152,6 +161,18 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		E32ED355F80E4159A099380B /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				1A1A31272FC04762A017E0AC /* AppleSDGothicNeoR00.otf */,
+				78A0797393C44759B55FF6DD /* Diphylleia-Regular.otf */,
+				075578CFFFA140C1817322DF /* NanumEongGeongKwiCe.otf */,
+				0DB5AEF152234FC98C2D3621 /* RIDIBatang.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -249,6 +270,10 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				5B3A497497F614EADF867C80 /* PrivacyInfo.xcprivacy in Resources */,
+				E329C6F4FE1046AB8F3A970C /* AppleSDGothicNeoR00.otf in Resources */,
+				E38510F7CE624A299F752A06 /* Diphylleia-Regular.otf in Resources */,
+				CCD06858F04540C0B619A205 /* NanumEongGeongKwiCe.otf in Resources */,
+				E5D669BEA5F54584AC138A8D /* RIDIBatang.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
