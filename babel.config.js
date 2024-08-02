@@ -1,5 +1,5 @@
 module.exports = {
-  presets: ['module:metro-react-native-babel-preset'],
+  presets: ['module:@react-native/babel-preset'],
   plugins: [
     'babel-plugin-styled-components',
     [
@@ -18,9 +18,9 @@ module.exports = {
           '.json',
         ],
         alias: {
-          '~': './src',
-          '@sinabro/ui': './packages/ui',
+          '@': './src',
           '@sinabro/design-token': './packages/design-token',
+          '@sinabro/ui': './packages/ui',
         },
       },
     ],
