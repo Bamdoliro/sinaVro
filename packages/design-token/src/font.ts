@@ -33,7 +33,7 @@ const font = {
 
   caption: fontGenerator('AppleSDGothicNeoR00', 400, 12, 160, -0.2),
   cursive1: fontGenerator('NanumEongGeongKwiCe', 400, 24, 120, -0.2),
-  cursive2: fontGenerator('NanumEongGeongKwiCe', 400, 18, 140, 1.0),
+  cursive2: fontGenerator('NanumEongGeongKwiCe', 400, 20, 140, 1.0),
 };
 
 export default font;
