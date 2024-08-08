@@ -27,3 +27,4 @@ export { default as IconStamp } from './src/IconStamp';
 export { default as IconWhiteArrow } from './src/IconWhiteArrow';
 export { default as IconWhiteBell } from './src/IconWhiteBell';
 export { default as IconWhitePerson } from './src/IconWhitePerson';
+export { default as IconWriter1 } from './src/IconWriter1';
