@@ -1,7 +1,7 @@
 import React, { SVGProps } from 'react';
 import { Svg, Rect, Defs, Pattern, Use, Image } from 'react-native-svg';
 
-const IconActionBlackBell = ({ width, height }: SVGProps<SVGSVGElement>) => {
+const IconCheck = ({ width, height }: SVGProps<SVGSVGElement>) => {
   return (
     <Svg width={width} height={height} viewBox="0 0 32 24" fill="none">
       <Rect width="32" height="24" fill="url(#pattern0_2653_3819)" />
@@ -28,4 +28,4 @@ const IconActionBlackBell = ({ width, height }: SVGProps<SVGSVGElement>) => {
   );
 };
 
-export default IconActionBlackBell;
+export default IconCheck;
